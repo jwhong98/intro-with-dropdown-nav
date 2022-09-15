@@ -32,7 +32,7 @@ const Navbar = () => {
         </ul>
         <div className={classes.buttonContainer}>buttons</div>
       </nav>
-      {isOpen && <MobileMenu />}
+      {isOpen && <MobileMenu menuToggler={menuToggler} />}
     </>
   );
 };
