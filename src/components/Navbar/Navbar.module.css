@@ -1,1 +1,64 @@
-/* No CSS *//*# sourceMappingURL=Navbar.module.css.map */
+nav {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  z-index: 10;
+  gap: 4rem;
+}
+
+nav .bars {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  nav .bars {
+    display: none;
+  }
+}
+
+.navMenu {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .navMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+  }
+}
+
+.navMenu__item {
+  color: dimgray;
+}
+
+.navMenu__item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.buttonContainer {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .buttonContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: auto;
+  }
+}
+/*# sourceMappingURL=Navbar.module.css.map */
