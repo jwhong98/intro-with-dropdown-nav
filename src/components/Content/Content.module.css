@@ -1,5 +1,6 @@
 .content {
   margin-top: 50px;
+  height: 270px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
