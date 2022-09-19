@@ -5,6 +5,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: #141414;
 }
 
 .title img {
@@ -19,6 +24,27 @@
           flex-direction: column;
   padding-left: 25px;
   padding-top: 25px;
+  background: #fff;
   gap: 20px;
+}
+
+@media only screen and (min-width: 855px) {
+  .dropContainer {
+    position: relative;
+  }
+  .listContainer {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 8px;
+    min-width: 120px;
+    z-index: 50;
+  }
+  .leftAlign {
+    left: 0;
+  }
 }
 /*# sourceMappingURL=Dropdown.module.css.map */

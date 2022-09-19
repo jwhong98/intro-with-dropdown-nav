@@ -36,6 +36,10 @@ nav {
     a {
       text-decoration: none;
       color: inherit;
+
+      &:hover {
+        color: hsl(0, 0%, 8%);
+      }
     }
   }
 }
@@ -52,6 +56,10 @@ nav {
     a {
       text-decoration: none;
       color: hsl(0, 0%, 41%);
+
+      &:hover {
+        color: hsl(0, 0%, 8%);
+      }
     }
   }
 }

@@ -13,6 +13,10 @@
   color: dimgray;
 }
 
+.buttonContainer a:hover {
+  color: #141414;
+}
+
 .mobile {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;

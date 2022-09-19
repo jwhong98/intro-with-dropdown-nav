@@ -47,6 +47,10 @@ nav .bars {
   color: inherit;
 }
 
+.navMenu__item a:hover {
+  color: #141414;
+}
+
 .buttonContainer {
   display: none;
 }
@@ -65,6 +69,9 @@ nav .bars {
   .buttonContainer a {
     text-decoration: none;
     color: dimgray;
+  }
+  .buttonContainer a:hover {
+    color: #141414;
   }
 }
 /*# sourceMappingURL=Navbar.module.css.map */

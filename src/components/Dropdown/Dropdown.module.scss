@@ -1,6 +1,11 @@
 .title {
   display: flex;
   align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    color: hsl(0, 0%, 8%);
+  }
   img {
     margin-left: 16px;
   }
@@ -11,7 +16,27 @@
   flex-direction: column;
   padding-left: 25px;
   padding-top: 25px;
+  background: #fff;
   gap: 20px;
+}
 
-  //   font-size: 18px;
+@media only screen and (min-width: 855px) {
+  .dropContainer {
+    position: relative;
+  }
+
+  .listContainer {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 8px;
+    min-width: 120px;
+    z-index: 50;
+  }
+
+  .leftAlign {
+    left: 0;
+  }
 }

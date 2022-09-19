@@ -13,7 +13,7 @@ const Content = () => {
         Get your team in sync, no matter your location. Streamline processes,
         create team rituals, and watch productivity soar.
       </p>
-      <Button label="Learn More" />
+      <Button label="Learn more" />
       <Sponsors />
     </section>
   );

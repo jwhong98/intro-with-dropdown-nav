@@ -9,12 +9,19 @@ const Dropdown = (props) => {
     display === "none" ? setDisplay("flex") : setDisplay("none");
   };
   return (
-    <div>
+    <div className={classes.dropContainer}>
       <span onClick={onClick} className={classes.title}>
         {props.title}
         <img src={display === "none" ? arrowDown : arrowUp} alt="" />
       </span>
-      <ul style={{ display: display }} className={classes.listContainer}>
+      <ul
+        style={{ display: display }}
+        className={
+          props.left
+            ? `${classes.listContainer} ${classes.leftAlign}`
+            : classes.listContainer
+        }
+      >
         {props.children}
       </ul>
     </div>
