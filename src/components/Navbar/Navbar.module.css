@@ -9,6 +9,8 @@ nav {
   padding: 0 20px;
   z-index: 10;
   gap: 4rem;
+  max-width: 1800px;
+  margin: auto;
 }
 
 nav .bars {
@@ -16,7 +18,7 @@ nav .bars {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 855px) {
   nav .bars {
     display: none;
   }
@@ -26,7 +28,7 @@ nav .bars {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 855px) {
   .navMenu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -49,7 +51,7 @@ nav .bars {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 855px) {
   .buttonContainer {
     display: -webkit-box;
     display: -ms-flexbox;

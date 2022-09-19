@@ -24,4 +24,13 @@
 .clients img:nth-child(2) {
   width: 55px;
 }
+
+@media only screen and (min-width: 1100px) {
+  .clients img {
+    width: auto;
+  }
+  .clients img:nth-child(2) {
+    width: auto;
+  }
+}
 /*# sourceMappingURL=Sponsors.module.css.map */

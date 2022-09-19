@@ -5,6 +5,8 @@ nav {
   padding: 0 20px;
   z-index: 10;
   gap: 4rem;
+  max-width: 1800px;
+  margin: auto;
 
   .logo {
   }
@@ -13,7 +15,7 @@ nav {
     margin-left: auto;
     cursor: pointer;
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 855px) {
       display: none;
     }
   }
@@ -22,7 +24,7 @@ nav {
 .navMenu {
   display: none;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 855px) {
     display: flex;
     list-style-type: none;
     gap: 2rem;
@@ -41,7 +43,7 @@ nav {
 .buttonContainer {
   display: none;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 855px) {
     display: flex;
     gap: 2rem;
     align-items: center;

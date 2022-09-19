@@ -9,7 +9,7 @@ const Sponsors = () => {
   return (
     <section className={classes.clients}>
       <img src={databiz} alt="" />
-      <img className={classes.smaller} src={audiophile} alt="" />
+      <img src={audiophile} alt="" />
       <img src={meet} alt="" />
       <img src={maker} alt="" />
     </section>
