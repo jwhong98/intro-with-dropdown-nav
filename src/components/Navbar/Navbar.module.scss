@@ -46,5 +46,10 @@ nav {
     gap: 2rem;
     align-items: center;
     margin-left: auto;
+
+    a {
+      text-decoration: none;
+      color: hsl(0, 0%, 41%);
+    }
   }
 }

@@ -1,4 +1,4 @@
-.main {
+main {
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10,5 +10,22 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    height: 85vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    width: 83vw;
+    max-width: 1350px;
+  }
 }
 /*# sourceMappingURL=Main.module.css.map */

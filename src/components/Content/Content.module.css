@@ -1,6 +1,8 @@
 .content {
+  position: relative;
   margin-top: 50px;
   min-height: 270px;
+  max-height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,5 +26,40 @@
   font-size: 16px;
   line-height: 1.75;
   color: dimgray;
+}
+
+@media only screen and (min-width: 768px) {
+  .content {
+    margin: 0;
+    height: 100%;
+    max-height: 650px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: start;
+    width: auto;
+    gap: 3rem;
+  }
+  .content h1 {
+    font-size: 4rem;
+  }
+  .content h1 span {
+    display: block;
+  }
+  .content p {
+    font-size: 18px;
+    width: auto;
+    max-width: 450px;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  .content h1 {
+    font-size: 4.9rem;
+  }
 }
 /*# sourceMappingURL=Content.module.css.map */

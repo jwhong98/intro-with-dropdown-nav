@@ -1,0 +1,15 @@
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+  }
+}
+
+.mobile {
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,7 +1,17 @@
-.main {
+main {
   width: 100vw;
   //   height: calc(100vh - 80px);
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+
+  @media only screen and (min-width: 768px) {
+    height: 85vh;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: row-reverse;
+    width: 83vw;
+    max-width: 1350px;
+  }
 }

@@ -6,4 +6,22 @@ button {
   background-color: black;
   color: #fff;
   font-size: 16px;
+  width: 100%;
+  max-width: 140px;
+
+  @media only screen and (min-width: 768px) {
+    max-width: 150px;
+  }
+}
+
+.register {
+  background-color: #fff;
+  border: 2px solid hsl(0, 0%, 41%);
+  color: hsl(0, 0%, 41%);
+  padding: 10px 25px;
+  max-width: 300px;
+
+  @media only screen and (min-width: 768px) {
+    padding: 10px 20px;
+  }
 }

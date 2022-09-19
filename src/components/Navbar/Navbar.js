@@ -4,6 +4,9 @@ import logo from "../../images/logo.svg";
 import bars from "../../images/icon-menu.svg";
 import { useState } from "react";
 import MobileMenu from "./MobileMenu";
+import Button from "../Button/Button";
+import FeaturesDrop from "../Dropdown/FeaturesDrop";
+import CompanyDrop from "../Dropdown/CompanyDrop";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,8 +24,12 @@ const Navbar = () => {
           onClick={menuToggler}
         />
         <ul className={classes.navMenu}>
-          <li className={classes.navMenu__item}>Features</li>
-          <li className={classes.navMenu__item}>Company</li>
+          <li className={classes.navMenu__item}>
+            <FeaturesDrop />
+          </li>
+          <li className={classes.navMenu__item}>
+            <CompanyDrop />
+          </li>
           <li className={classes.navMenu__item}>
             <a href="/">Careers</a>
           </li>
@@ -30,7 +37,10 @@ const Navbar = () => {
             <a href="/">About</a>
           </li>
         </ul>
-        <div className={classes.buttonContainer}>buttons</div>
+        <div className={classes.buttonContainer}>
+          <a href="/">Login</a>
+          <Button label="Register" register={true} />
+        </div>
       </nav>
       {isOpen && <MobileMenu menuToggler={menuToggler} open={isOpen} />}
     </>

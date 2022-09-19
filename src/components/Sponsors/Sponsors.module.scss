@@ -4,6 +4,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: inherit;
 
   img {
     width: 70px;

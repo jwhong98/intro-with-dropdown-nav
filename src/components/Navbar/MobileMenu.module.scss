@@ -45,12 +45,9 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  margin-bottom: 40px;
 
   &__item {
     color: hsl(0, 0%, 41%);
   }
-}
-
-.buttonWrap {
-  margin-top: 40px;
 }

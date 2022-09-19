@@ -2,7 +2,11 @@ import React from "react";
 import classes from "./Button.module.css";
 
 const Button = (props) => {
-  return <button>{props.label}Learn more</button>;
+  return (
+    <button className={props.register ? classes.register : ""}>
+      {props.label}
+    </button>
+  );
 };
 
 export default Button;
