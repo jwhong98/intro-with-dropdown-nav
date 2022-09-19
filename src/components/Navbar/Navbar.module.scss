@@ -9,6 +9,7 @@ nav {
   margin: auto;
 
   .logo {
+    cursor: pointer;
   }
 
   .bars {
@@ -28,6 +29,8 @@ nav {
     display: flex;
     list-style-type: none;
     gap: 2rem;
+    height: 100%;
+    align-items: center;
   }
 
   &__item {

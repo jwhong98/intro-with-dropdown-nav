@@ -13,6 +13,10 @@ nav {
   margin: auto;
 }
 
+nav .logo {
+  cursor: pointer;
+}
+
 nav .bars {
   margin-left: auto;
   cursor: pointer;
@@ -35,6 +39,10 @@ nav .bars {
     display: flex;
     list-style-type: none;
     gap: 2rem;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 

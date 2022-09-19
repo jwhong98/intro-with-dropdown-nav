@@ -18,6 +18,10 @@
   padding-top: 25px;
   background: #fff;
   gap: 20px;
+
+  li {
+    cursor: pointer;
+  }
 }
 
 @media only screen and (min-width: 855px) {
