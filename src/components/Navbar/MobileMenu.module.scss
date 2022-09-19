@@ -15,12 +15,12 @@
 
 .mobileMenuContainer {
   position: absolute;
-  right: 0;
   width: 60vw;
   height: 100vh;
   background: #fff;
   padding: 20px;
   z-index: 30;
+  right: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +32,10 @@
   img {
     margin-left: auto;
   }
+}
+
+.active {
+  right: 0;
 }
 
 .mobileMenu {

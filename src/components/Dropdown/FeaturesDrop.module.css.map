@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,YAAY,EAAE,IAAI;CAKnB;;AARD,AAIE,aAJW,CAIX,GAAG,CAAC;EACF,YAAY,EAAE,IAAI;EAClB,KAAK,EAAE,IAAI;CACZ",
+    "sources": [
+        "FeaturesDrop.module.scss"
+    ],
+    "names": [],
+    "file": "FeaturesDrop.module.css"
+}

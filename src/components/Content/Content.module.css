@@ -1,6 +1,6 @@
 .content {
   margin-top: 50px;
-  height: 270px;
+  min-height: 270px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,7 +22,7 @@
 
 .content p {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.75;
   color: dimgray;
 }
 /*# sourceMappingURL=Content.module.css.map */

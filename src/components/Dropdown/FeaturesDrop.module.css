@@ -1,0 +1,15 @@
+.featuresItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+}
+
+.featuresItem img {
+  margin-right: 15px;
+  width: 18px;
+}
+/*# sourceMappingURL=FeaturesDrop.module.css.map */

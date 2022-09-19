@@ -1,1 +1,24 @@
-/* No CSS *//*# sourceMappingURL=Dropdown.module.css.map */
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title img {
+  margin-left: 16px;
+}
+
+.listContainer {
+  list-style: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 25px;
+  padding-top: 25px;
+  gap: 20px;
+}
+/*# sourceMappingURL=Dropdown.module.css.map */
