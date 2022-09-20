@@ -14,16 +14,18 @@
 }
 
 .mobileMenuContainer {
-  position: absolute;
+  position: fixed;
   width: 60vw;
   height: 100vh;
+  right: 0;
   background: #fff;
   padding: 20px;
   z-index: 30;
-  right: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in-out;
 
   @media only screen and (min-width: 855px) {
     display: none;
@@ -35,7 +37,7 @@
 }
 
 .active {
-  right: 0;
+  transform: translateX(0);
 }
 
 .mobileMenu {

@@ -1,3 +1,7 @@
+.dropContainer {
+  position: relative;
+}
+
 .title {
   display: flex;
   align-items: center;
@@ -13,6 +17,7 @@
 
 .listContainer {
   list-style: none;
+  display: flex;
   flex-direction: column;
   padding-left: 25px;
   padding-top: 25px;
@@ -22,13 +27,12 @@
   li {
     cursor: pointer;
   }
+  li:hover {
+    color: hsl(0, 0%, 8%);
+  }
 }
 
 @media only screen and (min-width: 855px) {
-  .dropContainer {
-    position: relative;
-  }
-
   .listContainer {
     position: absolute;
     top: 40px;

@@ -42,7 +42,8 @@ const Navbar = () => {
           <Button label="Register" register={true} />
         </div>
       </nav>
-      {isOpen && <MobileMenu menuToggler={menuToggler} open={isOpen} />}
+      {/* {isOpen && <MobileMenu menuToggler={menuToggler} open={isOpen} />} */}
+      <MobileMenu open={isOpen} menuToggler={menuToggler} />
     </>
   );
 };

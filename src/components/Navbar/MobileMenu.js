@@ -16,7 +16,7 @@ const MobileMenu = (props) => {
     <>
       {ReactDOM.createPortal(
         <>
-          <Drop onClick={props.menuToggler} />
+          {props.open && <Drop onClick={props.menuToggler} />}
           <div
             className={
               props.open

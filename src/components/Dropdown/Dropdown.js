@@ -8,6 +8,7 @@ const Dropdown = (props) => {
   const onClick = () => {
     display === "none" ? setDisplay("flex") : setDisplay("none");
   };
+
   return (
     <div className={classes.dropContainer}>
       <span onClick={onClick} className={classes.title}>
