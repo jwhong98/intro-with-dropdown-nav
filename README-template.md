@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/jwhong98/intro-with-dropdown-nav/tree/master
+- Solution URL: https://github.com/jwhong98/intro-with-dropdown-nav
 - Live Site URL: https://intro-with-dropdown-nav.vercel.app/
 
 ## My process
